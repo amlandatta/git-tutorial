@@ -49,4 +49,4 @@ git config --global user.name "Amlan Datta"
   git push -u origin main
   ```
   
- 4. Refer [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to Github with SSH)
+ 4. Refer [Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
