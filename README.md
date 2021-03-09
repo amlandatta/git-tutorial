@@ -17,7 +17,18 @@
     - Select `Private` if you want to choose who can see and commit to the repository.
   - Click `Create Repository`
 
-2. You have an existing project. `cd <to-your-project-folder>`
+2. Configure git
+
+```
+# view existing configurations
+git config --list
+
+# set your user name
+git config --global user.name "Amlan Datta"
+```
+
+
+3. You have an existing project. `cd <to-your-project-folder>`
 
   ```
   cd git-tutorial
@@ -27,11 +38,15 @@
   git add README.md
   # to add all files
   git add .
-  git commit -m "first commit"
-
+  git commit -m "Initial commit"
+  
+  # set default branch
+  git branch -M main
   # set remote repository. You can find the https URL
   git remote add origin https://github.com/amlandatta/git-tutorial.git
 
   # Publish your content to Github
-  git push -u origin master
+  git push -u origin main
   ```
+  
+ 4. Refer [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to Github with SSH)
