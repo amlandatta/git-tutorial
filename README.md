@@ -1,21 +1,23 @@
+# Create a new repository and push existing project
 
-## Create a new repository and push existing project ##
+This is a beginners guide!
 
-**Pre-requisites**
-  * You should have installed git client
+## Pre-requisites
+* You should have installed git client
 
-    Confirm using `git --version`
+  Confirm using `git --version`
 
-    If not installed, download from [here](https://git-scm.com/downloads)
+  If not installed, download from [here](https://git-scm.com/downloads)
 
+## Get started with new repository
 
 1. Create a **new repository** in Github
 
-  - After you login to Github, select `Your Repositories > Click New`
-  - For this example I select `Public` repository.
+- After you login to Github, select `Your Repositories > Click New`
+- For this example I select `Public` repository.
     - Select `Public` if you want your content to be visible to all.
     - Select `Private` if you want to choose who can see and commit to the repository.
-  - Click `Create Repository`
+- Click `Create Repository`
 
 2. Configure git
 
@@ -27,6 +29,7 @@ git config --list
 git config --global user.name "Amlan Datta"
 ```
 
+## Working with existing repository
 
 3. You have an existing project. `cd <to-your-project-folder>`
 
@@ -48,5 +51,9 @@ git config --global user.name "Amlan Datta"
   # Publish your content to Github
   git push -u origin main
   ```
-  
- 4. Refer [Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+4. Refer [Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+5. For daily use, useful steps continue [here](DAILY_USE_GIT_COMMANDS.md)
+
+6. Some GIT commands seems to be similar but are for different purpose. Check [here](SIMILAR_BUT_DIFFERENT.md)
