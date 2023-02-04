@@ -54,6 +54,6 @@ git config --global user.name "Amlan Datta"
 
 4. Refer [Connecting to Github with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
-5. For daily use, useful steps continue [here](DAILY_USE_GIT_COMMANDS.md)
+5. For daily use, useful steps continue [here](docs/DAILY_USE_GIT_COMMANDS.md)
 
-6. Some GIT commands seems to be similar but are for different purpose. Check [here](SIMILAR_BUT_DIFFERENT.md)
+6. Some GIT commands seems to be similar but are for different purpose. Check [here](docs/SIMILAR_BUT_DIFFERENT.md)
